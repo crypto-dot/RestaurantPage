@@ -61,7 +61,6 @@ function header(){
     const buttonContact = document.createElement('div');
     const buttonWrapper = document.createElement('div');
     const ufoIcon = new Image();
-    let mediaQuery = window.matchMedia("(max-height:500px)");
 
     ufoIcon.src = ufo;
     ufoIcon.classList.add('ufo');
